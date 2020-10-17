@@ -1,0 +1,13 @@
+{
+    "name": "magezil/module-bestseller",
+    "description": "Custom module that generate the best seller collection products in Magento 2.",
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+          "Magezil\\Bestseller\\": ""
+        }
+    }
+}

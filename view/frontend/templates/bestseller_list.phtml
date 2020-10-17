@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @var Magezil\Bestseller\Block\Product\Bestseller $block
+ */
+
+$bestsellerConfig = $block->getBestsellerConfig();
+?>
+
+<?php if ($bestsellerConfig->isEnabled()) : ?>
+    <?php if ($block->customerIsLogged()) : ?>
+        <h1><?= $block->getBlockTitle()->getText() ?></h1>
+        <?= $block->getListingBlock()->toHtml() ?>
+    <?php endif; ?>
+<?php endif; ?>
