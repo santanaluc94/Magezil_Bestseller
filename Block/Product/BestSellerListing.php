@@ -19,7 +19,7 @@ use Magento\Framework\App\ObjectManager;
 
 class BestSellerListing extends ListProduct
 {
-    protected $_template = "Magezil_Bestseller::bestseller.phtml";
+    protected $_template = "Magezil_Bestseller::bestseller_list.phtml";
     protected $bestSellersCollectionFactory;
     protected $storeManager;
     protected $productFactory;
