@@ -2,3 +2,12 @@ Best Seller Products,Produtos Mais Comprados
 Enable Module,Habilitar Módulo
 Qty Products Display,Quantidade de Produtos
 "Quantity of products to display on frontend. To do not apply this filter, just leave it empty.","Quantidade de produtos que serão exibidos no frontend. Para não aplicar o filtro, apenas deixe vazio."
+Magento listing product,Listagem de Produtos do Magento
+Use the default Magento product listing.,Usar a listagem de produtos padrão do Magento.
+Cards Configuration,Configuração dos Cartões
+Show Wishlist,Exibir Lista de Desejos
+Show button add to wishlist in bestseller listing products.,Exibir botão de adicionar a lista de desejos na listagem de produtos mais comprados.
+Show Compare,Exibir Lista de Comparação
+Show button add to compare in bestseller listing products.,Exibir botão de adicionar a lista de comparação na listagem de produtos mais comprados.
+Show Qty Products,Exibir QTD Produtos
+Show quantity products to add to cart in bestseller listing products.,Exibir quantidade de produtos para adicionar ao carrinho na listagem de produtos mais comprados.

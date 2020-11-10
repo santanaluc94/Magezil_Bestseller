@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <magezil_bestseller>
+            <template_type>
+                <is_magento_template>1</is_magento_template>
+            </template_type>
+        </magezil_bestseller>
+    </default>
+</config>

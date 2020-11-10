@@ -19,7 +19,8 @@ use Magento\Framework\App\ObjectManager;
 
 class BestSellerListing extends ListProduct
 {
-    protected $_template = "Magezil_Bestseller::bestseller_list.phtml";
+    protected $magentoTemplate = 'Magento_Catalog::product/list.phtml';
+    protected $customTemplate = 'Magezil_Bestseller::custom_bestseller_listing.phtml';
     protected $bestSellersCollectionFactory;
     protected $storeManager;
     protected $productFactory;
@@ -93,12 +94,20 @@ class BestSellerListing extends ListProduct
         return $collection;
     }
 
-    public function getListingBlock(): ListProduct
+    public function getMagentoListingBlock(): ListProduct
     {
         return $this->blockFactory
             ->createBlock(ListProduct::class)
             ->setCollection($this->getLoadedProductCollection())
-            ->setTemplate('Magento_Catalog::product/list.phtml');
+            ->setTemplate($this->magentoTemplate);
+    }
+
+    public function getCustomListingBlock(): ListProduct
+    {
+        return $this->blockFactory
+            ->createBlock(self::class)
+            ->setCollection($this->getLoadedProductCollection())
+            ->setTemplate($this->customTemplate);
     }
 
     public function customerIsLogged(): bool

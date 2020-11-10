@@ -25,6 +25,41 @@
                     </depends>
                 </field>
             </group>
+            <group id="template_type" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Cards Configuration</label>
+                <field id="is_magento_template" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Magento listing product</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Use the default Magento product listing.</comment>
+                </field>
+                <field id="show_wishlist" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Wishlist</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Show button add to wishlist in bestseller listing products.</comment>
+                    <depends>
+                        <field id="magezil_bestseller/template_type/is_magento_template">0</field>
+                    </depends>
+                </field>
+                <field id="show_compare" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Compare</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Show button add to compare in bestseller listing products.</comment>
+                    <depends>
+                        <field id="magezil_bestseller/template_type/is_magento_template">0</field>
+                    </depends>
+                </field>
+                <field id="qty_products" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Qty Products</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Show quantity products to add to cart in bestseller listing products.</comment>
+                    <depends>
+                        <field id="magezil_bestseller/template_type/is_magento_template">0</field>
+                    </depends>
+                </field>
+                <depends>
+                    <field id="magezil_bestseller/general/enable">1</field>
+                </depends>
+            </group>
         </section>
     </system>
 </config>
