@@ -7,15 +7,13 @@
 $bestsellerConfig = $block->getBestsellerConfig();
 ?>
 
-<?php if ($bestsellerConfig->isEnabled()) : ?>
-    <?php if ($block->customerIsLogged()) : ?>
-        <?php if ($bestsellerConfig->isMagentoListingProduct()) : ?>
-            <h1><?= $block->getBlockTitle()->getText() ?></h1>
-            <!-- Magento Listing Product -->
-            <?= $block->getMagentoListingBlock()->toHtml() ?>
-        <?php else : ?>
-            <!-- Custom Listing Product -->
-            <?= $block->getCustomListingBlock()->toHtml() ?>
-        <?php endif; ?>
+<?php if ($block->isShowBlock()) : ?>
+    <?php if ($bestsellerConfig->isMagentoListingProduct()) : ?>
+        <h1><?= $block->getBlockTitle()->getText() ?></h1>
+        <!-- Magento Listing Product -->
+        <?= $block->getMagentoListingBlock()->toHtml() ?>
+    <?php else : ?>
+        <!-- Custom Listing Product -->
+        <?= $block->getCustomListingBlock()->toHtml() ?>
     <?php endif; ?>
 <?php endif; ?>

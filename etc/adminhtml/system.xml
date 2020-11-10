@@ -11,13 +11,21 @@
                     <label>Enable Module</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
-                <field id="title" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="user_logged" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Show Logged User</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>Show block only when the user is logged in.</comment>
+                    <depends>
+                        <field id="magezil_bestseller/general/enable">1</field>
+                    </depends>
+                </field>
+                <field id="title" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Title</label>
                     <depends>
                         <field id="magezil_bestseller/general/enable">1</field>
                     </depends>
                 </field>
-                <field id="display_limit" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="display_limit" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Qty Products Display</label>
                     <comment>Quantity of products to display on frontend. To do not apply this filter, just leave it empty.</comment>
                     <depends>

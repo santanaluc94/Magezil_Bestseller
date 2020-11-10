@@ -2,6 +2,9 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <magezil_bestseller>
+            <general>
+                <user_logged>0</user_logged>
+            </general>
             <template_type>
                 <is_magento_template>1</is_magento_template>
             </template_type>

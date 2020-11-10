@@ -120,4 +120,24 @@ class BestSellerListing extends ListProduct
     {
         return $this->bestsellerConfig;
     }
+
+    public function isShowBlock(): bool
+    {
+        // Check module is enable in admin
+        if (!$this->bestsellerConfig->isEnabled()) {
+            return false;
+        }
+
+        // Check config is enable and if is true, show block only user is logged in
+        if ($this->bestsellerConfig->isCustomerMustBeLoggedIn()) {
+            return $this->customerIsLogged();
+        }
+
+        // Show block if product were bought together
+        if (count($this->getLoadedProductCollection()) === 0) {
+            return false;
+        }
+
+        return true;
+    }
 }

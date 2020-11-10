@@ -8,6 +8,7 @@ use Magento\Store\Model\ScopeInterface;
 class Settings
 {
     const MODULE_ENABLE = 'magezil_bestseller/general/enable';
+    const BESTSELLER_USER_IS_LOGGED_IN = 'magezil_bestseller/general/user_logged';
     const BESTSELLER_TITLE = 'magezil_bestseller/general/title';
     const BESTSELLER_DISPLAY_LIMIT = 'magezil_bestseller/general/display_limit';
     const BESTSELLER_TEMPLATE_TYPE = 'magezil_bestseller/template_type/is_magento_template';
@@ -26,6 +27,11 @@ class Settings
     public function isEnabled(): bool
     {
         return $this->scopeConfig->isSetFlag(self::MODULE_ENABLE, ScopeInterface::SCOPE_WEBSITE);
+    }
+
+    public function isCustomerMustBeLoggedIn(): bool
+    {
+        return $this->scopeConfig->isSetFlag(self::BESTSELLER_USER_IS_LOGGED_IN, ScopeInterface::SCOPE_WEBSITE);
     }
 
     public function hasBestsellerTitle(): bool
