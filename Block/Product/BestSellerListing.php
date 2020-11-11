@@ -73,9 +73,23 @@ class BestSellerListing extends ListProduct
         $productIds = [];
 
         $bestSellers = $this->bestSellersCollectionFactory->create()
-            ->setPeriod('year');
+            ->setPeriod($this->bestsellerConfig->getPeriodType());
 
         foreach ($bestSellers as $product) {
+            $productDate = new \DateTime($product->getPeriod());
+
+            if ($this->bestsellerConfig->hasPeriodFromDate()) {
+                if ($productDate < $this->bestsellerConfig->getPeriodFromDate()) {
+                    continue;
+                }
+            }
+
+            if ($this->bestsellerConfig->hasPeriodToDate()) {
+                if ($productDate > $this->bestsellerConfig->getPeriodToDate()) {
+                    continue;
+                }
+            }
+
             $productIds[] = $product->getProductId();
         }
 

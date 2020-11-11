@@ -19,13 +19,13 @@
                         <field id="magezil_bestseller/general/enable">1</field>
                     </depends>
                 </field>
-                <field id="title" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="title" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Title</label>
                     <depends>
                         <field id="magezil_bestseller/general/enable">1</field>
                     </depends>
                 </field>
-                <field id="display_limit" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                <field id="display_limit" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Qty Products Display</label>
                     <comment>Quantity of products to display on frontend. To do not apply this filter, just leave it empty.</comment>
                     <depends>
@@ -33,7 +33,27 @@
                     </depends>
                 </field>
             </group>
-            <group id="template_type" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="filter" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Period Configuration</label>
+                <field id="period" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Period to Filter</label>
+                    <source_model>Magezil\Bestseller\Model\Config\Source\PeriodToFilterBestseller</source_model>
+                </field>
+                <field id="from_date" translate="label" type="date" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>From Date</label>
+                    <frontend_model>Magezil\Bestseller\Model\Config\Source\Date</frontend_model>
+                    <comment>To do not apply this filter, just leave it empty.</comment>
+                </field>
+                <field id="to_date" translate="label" type="date" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>To Date</label>
+                    <frontend_model>Magezil\Bestseller\Model\Config\Source\Date</frontend_model>
+                    <comment>To do not apply this filter, just leave it empty.</comment>
+                </field>
+                <depends>
+                    <field id="magezil_bestseller/general/enable">1</field>
+                </depends>
+            </group>
+            <group id="template_type" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Cards Configuration</label>
                 <field id="is_magento_template" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Magento listing product</label>
