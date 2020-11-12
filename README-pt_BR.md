@@ -24,43 +24,29 @@ Para baixar o módulo via composer, execute o código abaixo.
 
 ## Admin do Magento
 
-Esse módulo adiciona um bloco na página de produtos, no qual insere todos os produtos que foram comprados frequentemente com o produto da página. É possível editar o título do bloco e quantos produtos serão exibidos nesse bloco. Para habilitar o módulo siga os passos abaixo:
+Esse módulo adiciona um bloco na página de produtos, no qual busca na lista de Relatórios do Magento os produtos mais comprados. É possível exibir o bloco somente se o cliente estiver online, editar o perído que será filtrado, título e quantos produtos serão exibidos nesse bloco. Para habilitar o módulo siga os passos abaixo:
   - **Passo 1:** Magento admin --> Lojas --> Configurações --> Configuração
-  - **Passo 2:** Tab _Magezil_ --> Seção _Frequentemente Comprados Juntos_ --> Grupo _Configurações Gerais_
+  - **Passo 2:** Tab _Magezil_ --> Seção _Produtos Mais Comprados_ --> Grupo _Configurações Gerais_
   - **Passo 3:** Habilitar Módulo = Sim
 
-Esse módulo adiciona um bloco na página de produtos, no qual busca na lista de Relatórios
-This module provides a bestsellers products block, which insert all products that were most purchased. It is possible to edit the title and how many products will display in this block. To enable this module, follow these steps:
-  - **Step 1:** Magento admin -> Stores -> Settings -> Configurations
-  - **Setp 2:** Tab _Magezil_ -> Section _Bestsellers Products_ -> Group _General Configuration_
-  - **Setp 3:** Enable Module = Yes
+### Configurações Gerais
 
-### General settings
+Esse módulo fornece algumas configurações no admin:
+  - **Exibir Usuário Logado:** Exibir bloco apenas quando o cliente estiver logado.
+  - **Título:** Editar título do bloco.
+  - **Exibir Qtd de Produtos:** Quantidade dos produtos que serão exibidos no frontend. Para não aplicar o filtro, apenas deixe vazio.
 
-This module provides some settings in admin:
-  - Show block only when the user is logged in;
-  - Edit title block;
-  - Quantity of products to display on frontend (to do not apply this filter, just leave it empty).
+### Configuração do Período
 
-### Cards settings
+Esse módulo fornece algumas configurações para o período de filtragem do bloco:
+  - **Período de Filtro:** Agrupar os produtos mais comprados por período (ano, mês ou dia).
+  - **Data Inicial:** Data inicial do filtro.
+  - **Data Final:** Data final do filtro.
 
-This module provides some settings to cards in this block to:
-  - Use the default Magento product listing or a custom template with the next settings.
-  - Show button add to wishlist in list products;
-  - Show button add to compare in list products;
-  - Show quantity products to add to cart in list products.
+### Configuração dos Cards
 
-
-
-
-
-To insert this block on a page, follow theses steps:
-  - Show block only when the user is logged in;
-  - Edit title block;
-  - Quantity of products to display on frontend (to do not apply this filter, just leave it empty).
-
-To insert this block on a page, follow theses steps:
-  - **Step 1:** Magento Admin -> Content -> Elements -> Page
-  - **Step 2:** _Select your page_
-  - **Step 3:** Add block in a page content
-    - {{block class="Magezil\Bestseller\Block\Product\BestSellerListing"}}
+Esse módulo fornece algumas configurações para os cards desse bloco:
+  - **Listagem de Produtos do Magento:** Usar a listagem de produtos padrão do Magento ou uma listagem de personalizada com as próximas configurações (opcionais).
+  - **Exibir Botão Lista de Compras:** Exibir botão de adicionar a lista de desejos no bloco dos produtos mais comprados personalizado.
+  - **Exibir Botão Lista de Comparação:** Exibir botão de adicionar a lista de comparação no bloco dos produtos mais comprados personalizado.
+  - **Exibir Qtd de Produtos:** Exibir quantidade dos produtos para adicionar ao carrinho no bloco dos produtos mais comprados personalizado.

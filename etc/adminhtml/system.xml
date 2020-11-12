@@ -34,7 +34,7 @@
                 </field>
             </group>
             <group id="filter" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Period Configuration</label>
+                <label>Period settings</label>
                 <field id="period" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Period to Filter</label>
                     <source_model>Magezil\Bestseller\Model\Config\Source\PeriodToFilterBestseller</source_model>
@@ -54,7 +54,7 @@
                 </depends>
             </group>
             <group id="template_type" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Cards Configuration</label>
+                <label>Cards settings</label>
                 <field id="is_magento_template" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Magento listing product</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
