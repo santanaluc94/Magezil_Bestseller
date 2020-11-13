@@ -14,9 +14,9 @@ Para baixar o módulo via composer, execute o código abaixo.
 >
 > **Versão desenvolvida:** 2.4.1
 >
-> **Versão do PHP:** 7.4
+> **Versão do PHP:** 7.0
 >
-> **Versão estável**: 1.0
+> **Versão estável**: 1.0.0
 >
 > **Licença:** OSL-3.0/AFL-3.0
 
@@ -29,12 +29,16 @@ Esse módulo adiciona um bloco na página de produtos, no qual busca na lista de
   - **Passo 2:** Tab _Magezil_ --> Seção _Produtos Mais Comprados_ --> Grupo _Configurações Gerais_
   - **Passo 3:** Habilitar Módulo = Sim
 
+![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/pt_BR/img/magezil-modulo.jpg)
+
 ### Configurações Gerais
 
 Esse módulo fornece algumas configurações no admin:
   - **Exibir Usuário Logado:** Exibir bloco apenas quando o cliente estiver logado.
   - **Título:** Editar título do bloco.
   - **Exibir Qtd de Produtos:** Quantidade dos produtos que serão exibidos no frontend. Para não aplicar o filtro, apenas deixe vazio.
+
+![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/pt_BR/img/configuracoes-gerais.jpg)
 
 ### Configuração do Período
 
@@ -43,10 +47,38 @@ Esse módulo fornece algumas configurações para o período de filtragem do blo
   - **Data Inicial:** Data inicial do filtro.
   - **Data Final:** Data final do filtro.
 
-### Configuração dos Cards
+![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/pt_BR/img/configuracoes-periodo.jpg)
 
-Esse módulo fornece algumas configurações para os cards desse bloco:
+### Configuração dos Cartões
+
+Esse módulo fornece algumas configurações para os cartões desse bloco:
   - **Listagem de Produtos do Magento:** Usar a listagem de produtos padrão do Magento ou uma listagem de personalizada com as próximas configurações (opcionais).
   - **Exibir Botão Lista de Compras:** Exibir botão de adicionar a lista de desejos no bloco dos produtos mais comprados personalizado.
   - **Exibir Botão Lista de Comparação:** Exibir botão de adicionar a lista de comparação no bloco dos produtos mais comprados personalizado.
   - **Exibir Qtd de Produtos:** Exibir quantidade dos produtos para adicionar ao carrinho no bloco dos produtos mais comprados personalizado.
+
+![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/pt_BR/img/configuracoes-cartao.jpg)
+
+---
+
+## Magento Storefront
+
+#### Listagem de Produtos do Magento habilitada:
+
+**Listagem de Produtos:**
+
+![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/magento-listagem.jpg)
+
+**Cartão do Produto:**
+
+![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/magento-cartao.jpg)
+
+#### Listagem de Produtos do Magento desabilitada:
+
+**Listagem de Produtos personalizada:**
+
+![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/personalizavel-listagem.jpg)
+
+**Cartão do Produto personalizado (com todas as configurações dos cartões habilitadas):**
+
+![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/personalizavel-cartao.jpg)
