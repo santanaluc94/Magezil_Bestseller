@@ -29,7 +29,7 @@ Esse módulo adiciona um bloco na página de produtos, no qual busca na lista de
   - **Passo 2:** Tab _Magezil_ --> Seção _Produtos Mais Comprados_ --> Grupo _Configurações Gerais_
   - **Passo 3:** Habilitar Módulo = Sim
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/pt_BR/img/magezil-modulo.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/pt_BR/img/magezil-modulo.jpg)
 
 ### Configurações Gerais
 
@@ -38,7 +38,7 @@ Esse módulo fornece algumas configurações no admin:
   - **Título:** Editar título do bloco.
   - **Exibir Qtd de Produtos:** Quantidade dos produtos que serão exibidos no frontend. Para não aplicar o filtro, apenas deixe vazio.
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/pt_BR/img/configuracoes-gerais.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/pt_BR/img/configuracoes-gerais.jpg)
 
 ### Configuração do Período
 
@@ -47,7 +47,7 @@ Esse módulo fornece algumas configurações para o período de filtragem do blo
   - **Data Inicial:** Data inicial do filtro.
   - **Data Final:** Data final do filtro.
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/pt_BR/img/configuracoes-periodo.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/pt_BR/img/configuracoes-periodo.jpg)
 
 ### Configuração dos Cartões
 
@@ -57,7 +57,7 @@ Esse módulo fornece algumas configurações para os cartões desse bloco:
   - **Exibir Botão Lista de Comparação:** Exibir botão de adicionar a lista de comparação no bloco dos produtos mais comprados personalizado.
   - **Exibir Qtd de Produtos:** Exibir quantidade dos produtos para adicionar ao carrinho no bloco dos produtos mais comprados personalizado.
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/pt_BR/img/configuracoes-cartao.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/pt_BR/img/configuracoes-cartao.jpg)
 
 ---
 
@@ -67,18 +67,18 @@ Esse módulo fornece algumas configurações para os cartões desse bloco:
 
 **Listagem de Produtos:**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/magento-listagem.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/magento-listagem.jpg)
 
 **Cartão do Produto:**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/magento-cartao.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/magento-cartao.jpg)
 
 #### Listagem de Produtos do Magento desabilitada:
 
 **Listagem de Produtos personalizada:**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/personalizavel-listagem.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/personalizavel-listagem.jpg)
 
 **Cartão do Produto personalizado (com todas as configurações dos cartões habilitadas):**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/personalizavel-cartao.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/personalizavel-cartao.jpg)

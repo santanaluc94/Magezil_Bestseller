@@ -29,7 +29,7 @@ This module provides a bestsellers products block, which insert all products tha
   - **Setp 2:** Tab _Magezil_ -> Section _Bestsellers Products_ -> Group _General Configuration_
   - **Setp 3:** Enable Module = Yes
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/magezil-module.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/magezil-module.jpg)
 
 ### General settings
 
@@ -38,7 +38,7 @@ This module provides some settings in admin:
   - **Title:** Edit title block;
   - **Qty Products Display:** Quantity of products to display on frontend (to do not apply this filter, just leave it empty).
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/general-settings.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/general-settings.jpg)
 
 ### Period settings
 
@@ -47,7 +47,7 @@ This module provides some settings to period to filter this block to:
   - **From Date:** Filter start date.
   - **To Date:** Filter end date.
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/period-settings.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/period-settings.jpg)
 
 ### Cards settings
 
@@ -57,7 +57,7 @@ This module provides some settings to cards in this block to:
   - **Show Compare:** Show button add to compare in list products;
   - **Show Qty Products	:** Show quantity products to add to cart in list products.
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/cards-settings.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/cards-settings.jpg)
 
 ---
 
@@ -67,18 +67,18 @@ This module provides some settings to cards in this block to:
 
 **Product listing:**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/magento-listing.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/magento-listing.jpg)
 
 **Product Card:**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/magento-card.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/magento-card.jpg)
 
 #### Magento listing product disable:
 
 **Custom Product listing:**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/custom-listing.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/custom-listing.jpg)
 
 **Custom Product Card (with all card settings enable):**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_BoughtTogether/blob/master/Readme/en_US/img/custom-card.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/custom-card.jpg)
