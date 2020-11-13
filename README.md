@@ -14,7 +14,7 @@ To download the module by composer, execute this code bellow.
 >
 > **Tested up to:** 2.4.1
 >
-> **Requires PHP:** 7.0
+> **Requires PHP:** ~7.1.3||~7.2.0||~7.3.0
 >
 > **Stable tag**: 1.0.0
 >
@@ -63,7 +63,7 @@ This module provides some settings to cards in this block to:
 
 ## Magento Storefront
 
-#### Magento listing product enable:
+### Magento listing product enable
 
 **Product listing:**
 
@@ -73,7 +73,7 @@ This module provides some settings to cards in this block to:
 
 ![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/magento-card.jpg)
 
-#### Magento listing product disable:
+### Magento listing product disable
 
 **Custom Product listing:**
 

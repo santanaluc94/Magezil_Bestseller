@@ -14,7 +14,7 @@ Para baixar o módulo via composer, execute o código abaixo.
 >
 > **Versão desenvolvida:** 2.4.1
 >
-> **Versão do PHP:** 7.0
+> **Versão do PHP:** ~7.1.3||~7.2.0||~7.3.0
 >
 > **Versão estável**: 1.0.0
 >
@@ -67,18 +67,18 @@ Esse módulo fornece algumas configurações para os cartões desse bloco:
 
 **Listagem de Produtos:**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/magento-listagem.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/pt_BR/img/magento-listagem.jpg)
 
 **Cartão do Produto:**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/magento-cartao.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/pt_BR/img/magento-cartao.jpg)
 
 #### Listagem de Produtos do Magento desabilitada:
 
 **Listagem de Produtos personalizada:**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/personalizavel-listagem.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/pt_BR/img/personalizavel-listagem.jpg)
 
 **Cartão do Produto personalizado (com todas as configurações dos cartões habilitadas):**
 
-![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/en_US/img/personalizavel-cartao.jpg)
+![ScreenShot](https://github.com/santanaluc94/Magezil_Bestseller/blob/master/Readme/pt_BR/img/personalizavel-cartao.jpg)

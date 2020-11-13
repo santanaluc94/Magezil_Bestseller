@@ -1,7 +1,17 @@
 {
     "name": "magezil/module-bestseller",
     "description": "Custom module that generate the best seller collection products in Magento 2.",
+    "require": {
+        "php": "~7.1.3||~7.2.0||~7.3.0",
+        "magento/module-sales": "*",
+        "magento/module-customer": "*"
+    },
     "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
     "autoload": {
         "files": [
             "registration.php"
